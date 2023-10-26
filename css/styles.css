@@ -1,6 +1,5 @@
 :root{
     --font-family:'Montserrat', sans-serif;
-
     --background-color: #282828;
     --color-segundaria:#5e5e5e;
     --color-primaria:#fff;
@@ -48,10 +47,13 @@ header{
     margin-bottom: 40px;
 }
 
+
 header img{
-    max-width: 120px;
+    border: 5px solid var(--color-segundaria) ;
+   
+    max-width: 140px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     transition: all 1s ease-in-out;
 }
 
